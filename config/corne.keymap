@@ -29,26 +29,26 @@
 &kp TAB     &kp EXCL   &kp AT          &kp HASH      &kp DLLR          &kp PRCNT        &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp ESCAPE  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans           &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT   &trans     &trans          &trans        &trans            &trans           &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                       &kp LGUI      &trans            &kp BACKSPACE    &kp SPACE  &trans     &kp RALT
+                                       &kp LGUI      &trans            &kp BACKSPACE    &kp SPACE  &trans     &trans
             >;
         };
 
         numbers {
             bindings = <
-&bt BT_CLR_ALL  &trans        &trans    &kp UP_ARROW  &kp PAGE_UP    &trans           &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_EQUAL
-&bt BT_CLR      &bt BT_SEL 0  &kp LEFT  &kp DOWN      &kp RIGHT      &trans           &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS   &kp KP_PLUS
-&kp LEFT_SHIFT  &bt BT_SEL 1  &trans    &trans        &kp PAGE_DOWN  &trans           &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT        &kp ENTER
-                                        &trans        &trans         &kp BACKSPACE    &kp SPACE  &trans           &kp KP_NUMBER_0
+&trans          &trans  &trans    &kp UP_ARROW  &kp PAGE_UP    &trans           &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_EQUAL
+&trans          &trans  &kp LEFT  &kp DOWN      &kp RIGHT      &trans           &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS   &kp KP_PLUS
+&kp LEFT_SHIFT  &trans  &trans    &trans        &kp PAGE_DOWN  &trans           &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT        &kp ENTER
+                                  &trans        &trans         &kp BACKSPACE    &kp SPACE  &trans           &kp KP_NUMBER_0
             >;
         };
 
         settings {
             display-name = "Lower";
             bindings = <
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &out OUT_TOG     &trans     &trans  &trans    &trans  &trans  &trans
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans     &trans  &trans    &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans           &trans     &trans  &trans    &trans  &trans  &trans
-                                            &kp LGUI      &trans        &kp BACKSPACE    &kp SPACE  &trans  &kp RALT
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &out OUT_TOG     &trans     &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans           &trans     &trans  &trans  &trans  &trans  &trans
+                                            &kp LGUI      &trans        &kp BACKSPACE    &kp SPACE  &trans  &trans
             >;
         };
     };
