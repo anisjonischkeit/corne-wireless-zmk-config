@@ -26,19 +26,19 @@
         symbols {
             display-name = "Raise";
             bindings = <
-&kp TAB     &kp EXCL   &kp AT          &kp HASH      &kp DLLR          &kp PRCNT        &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp ESCAPE  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans           &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT   &trans     &trans          &trans        &trans            &trans           &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                       &kp LGUI      &trans            &kp BACKSPACE    &kp SPACE  &trans     &trans
+&kp TAB     &kp EXCL   &kp AT          &kp HASH      &kp DLLR          &kp PRCNT        &kp CARET  &kp AMPS             &kp KP_MULTIPLY     &kp LPAR              &kp RPAR        &kp BSPC
+&kp ESCAPE  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans           &kp MINUS  &mt RIGHT_GUI EQUAL  &mt RIGHT_ALT LBKT  &mt RIGHT_SHIFT RBKT  &mt RCTRL BSLH  &kp GRAVE
+&kp LSHFT   &trans     &trans          &trans        &trans            &trans           &kp UNDER  &kp PLUS             &kp LBRC            &kp RBRC              &kp PIPE        &kp TILDE
+                                       &kp LGUI      &trans            &kp BACKSPACE    &kp SPACE  &trans               &trans
             >;
         };
 
         numbers {
             bindings = <
-&trans          &trans  &trans    &kp UP_ARROW  &kp PAGE_UP    &trans           &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE  &kp KP_EQUAL
-&trans          &trans  &kp LEFT  &kp DOWN      &kp RIGHT      &trans           &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS   &kp KP_PLUS
-&kp LEFT_SHIFT  &trans  &trans    &trans        &kp PAGE_DOWN  &trans           &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT        &kp ENTER
-                                  &trans        &trans         &kp BACKSPACE    &kp SPACE  &trans           &kp KP_NUMBER_0
+&trans          &trans     &trans           &kp UP_ARROW       &kp PAGE_UP     &trans           &trans     &kp KP_NUMBER_7       &kp KP_NUMBER_8            &kp KP_NUMBER_9              &kp KP_DIVIDE       &kp KP_EQUAL
+&trans          &kp LCTRL  &mt LSHIFT LEFT  &mt LEFT_ALT DOWN  &mt LGUI RIGHT  &trans           &trans     &mt RGUI KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_SHIFT KP_NUMBER_6  &mt RCTRL KP_MINUS  &kp KP_PLUS
+&kp LEFT_SHIFT  &trans     &trans           &trans             &kp PAGE_DOWN   &trans           &trans     &kp KP_NUMBER_1       &kp KP_NUMBER_2            &kp KP_NUMBER_3              &kp DOT             &kp ENTER
+                                            &trans             &trans          &kp BACKSPACE    &kp SPACE  &trans                &kp KP_NUMBER_0
             >;
         };
 
