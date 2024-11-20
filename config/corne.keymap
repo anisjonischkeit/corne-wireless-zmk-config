@@ -35,7 +35,7 @@
 
         numbers {
             bindings = <
-&trans  &trans     &trans          &kp UP_ARROW    &trans        &trans       &trans     &kp N7             &kp N8            &kp N9                    &kp KP_DIVIDE       &kp KP_EQUAL
+&trans  &trans     &trans          &kp UP_ARROW    &trans        &trans       &trans     &kp N7             &kp N8            &kp N9                    &kp KP_DIVIDE       &kp BACKSPACE
 &to 0   &trans     &kp LEFT        &kp DOWN_ARROW  &kp RIGHT     &trans       &kp MINUS  &mt RGUI NUMBER_4  &mt RIGHT_ALT N5  &mt RIGHT_SHIFT NUMBER_6  &mt RCTRL KP_MINUS  &kp ENTER
 &to 0   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LEFT_GUI  &trans       &trans     &kp NUMBER_1       &kp NUMBER_2      &kp NUMBER_3              &kp DOT             &kp ENTER
                                    &trans          &trans        &kp SPACE    &kp SPACE  &to 1              &kp N0
