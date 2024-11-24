@@ -58,7 +58,7 @@
 &trans   &trans     &trans          &kp UP_ARROW    &trans        &trans    &trans     &kp N7              &kp N8             &kp N9                     &kp KP_DIVIDE        &kp BACKSPACE
 &kp ESC  &trans     &kp LEFT        &kp DOWN_ARROW  &kp RIGHT     &trans    &kp MINUS  &bht RGUI NUMBER_4  &bht RIGHT_ALT N5  &bht RIGHT_SHIFT NUMBER_6  &bht RCTRL KP_MINUS  &kp ENTER
 &trans   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LEFT_GUI  &trans    &kp N0     &kp NUMBER_1        &kp NUMBER_2       &kp NUMBER_3               &kp DOT              &kp ENTER
-                                    &trans          &trans        &to 0     &kp SPACE  &to 2               &kp N0
+                                    &trans          &trans        &to 0     &kp SPACE  &to 1               &kp N0
             >;
         };
 
