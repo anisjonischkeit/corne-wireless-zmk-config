@@ -20,7 +20,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        bht: balanced_hold_tap {
+        mt: balanced_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -37,7 +37,7 @@
             display-name = "Base";
             bindings = <
 &kp TAB     &kp Q         &kp W              &kp F            &kp P                &kp B        &kp J      &kp L                 &kp U             &kp Y               &ht SINGLE_QUOTE SEMICOLON  &kp BACKSPACE
-&kp ESCAPE  &bht LCTRL A  &bht LEFT_SHIFT R  &bht LEFT_ALT S  &bht LEFT_COMMAND T  &kp G        &kp M      &bht RIGHT_COMMAND N  &bht RIGHT_ALT E  &bht RIGHT_SHIFT I  &bht RCTRL O                &kp ENTER
+&kp ESCAPE  &mt LCTRL A  &mt LEFT_SHIFT R  &mt LEFT_ALT S  &mt LEFT_COMMAND T  &kp G        &kp M      &mt RIGHT_COMMAND N  &mt RIGHT_ALT E  &mt RIGHT_SHIFT I  &mt RCTRL O                &kp ENTER
 &to 2       &kp Z         &kp X              &kp C            &kp D                &kp V        &kp K      &kp H                 &kp COMMA         &kp DOT             &kp FSLH                    &kp SINGLE_QUOTE
                                              &trans           &trans               &kp SPACE    &kp SPACE  &to 1                 &mo 3
             >;
@@ -47,7 +47,7 @@
             display-name = "Raise";
             bindings = <
 &kp GRAVE  &kp EXCL   &kp AT          &kp HASH      &kp DLLR                        &kp PRCNT    &kp CARET  &kp AMPS              &kp KP_MULTIPLY      &kp LPAR               &kp RPAR         &kp BSPC
-&kp ESC    &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &bht LEFT_COMMAND SINGLE_QUOTE  &trans       &kp MINUS  &bht RIGHT_GUI EQUAL  &bht RIGHT_ALT LBKT  &bht RIGHT_SHIFT RBKT  &bht RCTRL BSLH  &kp ENTER
+&kp ESC    &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_COMMAND SINGLE_QUOTE  &trans       &kp MINUS  &mt RIGHT_GUI EQUAL  &mt RIGHT_ALT LBKT  &mt RIGHT_SHIFT RBKT  &mt RCTRL BSLH  &kp ENTER
 &to 2      &trans     &trans          &trans        &trans                          &trans       &kp UNDER  &kp PLUS              &kp LBRC             &kp RBRC               &kp PIPE         &kp TILDE
                                       &trans        &trans                          &to 0        &kp SPACE  &to 2                 &mo 3
             >;
@@ -56,7 +56,7 @@
         numbers {
             bindings = <
 &trans   &trans     &trans          &kp UP_ARROW    &trans        &trans    &trans     &kp N7              &kp N8             &kp N9                     &kp KP_DIVIDE        &kp BACKSPACE
-&kp ESC  &trans     &kp LEFT        &kp DOWN_ARROW  &kp RIGHT     &trans    &kp MINUS  &bht RGUI NUMBER_4  &bht RIGHT_ALT N5  &bht RIGHT_SHIFT NUMBER_6  &bht RCTRL KP_MINUS  &kp ENTER
+&kp ESC  &trans     &kp LEFT        &kp DOWN_ARROW  &kp RIGHT     &trans    &kp MINUS  &mt RGUI NUMBER_4  &mt RIGHT_ALT N5  &mt RIGHT_SHIFT NUMBER_6  &mt RCTRL KP_MINUS  &kp ENTER
 &trans   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT    &kp LEFT_GUI  &trans    &kp N0     &kp NUMBER_1        &kp NUMBER_2       &kp NUMBER_3               &kp DOT              &kp ENTER
                                     &trans          &trans        &to 0     &kp SPACE  &to 1               &kp N0
             >;
